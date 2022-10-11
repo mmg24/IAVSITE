@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Interface IAV</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Times New Roman, Ariel, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: seagreen;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+/* Style the footer */
+footer {
+  background-color: grey;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+<body>
+
+<h2>IAV HASSAN II</h2>
+<p>L'institut agronomique et vétérinaire Hassan II Campus de Rabat et d'Agadir</p>
+<p>Cel institut regroupe des écoles et des filières dans différents domaines dont les principaux sont: l'agronomie, l'horticulture, la foresterie, l'écologie, la médcine vétérinaire, l'industrie agro-alimentaire et la topographie</p>
+
+<header>
+  <h2>Institut agronomique et vétérinaire Hassan II</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="https://iav.ac.ma/">IAV</a></li>
+      <li><a href="https://lgi.iav.ac.ma/">LGI</a></li>
+    </ul>
+  </nav>
+  <img src="large_IAV.jpg" alt="IAV">
+  <article>
+    <h1>IAV Rabat</h1>
+    <p>Accuille chaque année les étudiants désirant intégrer l'institut dès l'obtention du baccalauréat. Ils passent alors par l'APESA c'est l'année préparatoire aux études supérieur en agriculture qui est un tronc commun permettant d'intégrer après les différentes filières de l'IAV.
+    </p>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14635.835558451867!2d-6.8762772229294455!3d33.97960602256008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda76cc4f7a0fc6f%3A0x8bbf5756ab11f3ea!2sAgronomic%20and%20Veterinary%20Institute%20Hassan%20II!5e0!3m2!1sen!2sma!4v1663672693192!5m2!1sen!2sma" width="500" height="225" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </article>
+</section>
+
+<footer>
+  <p>Addresse:
+  CAMPUS RABAT
+Madinat Al Irfane, BP 6202
+Rabat, MAROC.
++212 5 377 717 45/58/59.
+</p>
+<a href="https://goo.gl/maps/xYeA2qeYXC1T7HYV8">MAPS</a>
+</footer>
+
+</body>
+</html>
+
